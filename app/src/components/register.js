@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './register.css';
 import {Button, HelpBlock, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
-import { useFormFields } from '../libs/hooksLib';
+import { useFormFields } from '../helpers/hooksLib';
 
 export default function Register(props) {
     const [fields, handleFieldChange] = useFormFields({
