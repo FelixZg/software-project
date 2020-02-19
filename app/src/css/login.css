@@ -30,12 +30,19 @@ h1
 
 @media all and (min-width: 480px)
 {
-    .login
+    .login,
+    .register
     {
         padding: 60px 0;
     }
-    .login form {
+    .login form,
+    .register form {
         margin: 0 auto;
         max-width: 320px;
+    }
+    .Signup form span.help-block {
+      font-size: 14px;
+      padding-bottom: 10px;
+      color: #999;
     }
 }
